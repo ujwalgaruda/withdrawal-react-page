@@ -12,11 +12,17 @@
     border-radius: 10px;
     background-color: #AAAA39;
     border-style: none;
-    width: 50%;
+    width: 80%;
     padding-top: 48px;
     padding-bottom: 16px;
     padding-left: 36px;
     padding-right: 36px;
+  }
+
+  @media only screen and (min-width:768px) {
+    .app-card{
+      width: 50%;
+    }
   }
   
   .name-image-container {
@@ -53,8 +59,14 @@
   
   .balance-header {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #ffffaa;
+  }
+
+  @media only screen and (min-width:768px) {
+    .balance-header {
+      font-size: 24px;
+    }
   }
   
   .balance-amt-container {
@@ -65,27 +77,49 @@
   
   .balance-amt {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffaa;
+  }
+
+  @media only screen and (min-width:768px) {
+    .balance-amt {
+      font-size: 30px;
+    }
   }
   
   .rupees-tag {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color: #555500;
   }
   
+  @media only screen and (min-width:768px) {
+    .rupees-tag {
+      font-size: 18px;
+    }
+  }
   .withdraw-header {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     color: #ffffaa;
     font-weight: 600;
+  }
+
+  @media only screen and (min-width:768px) {
+    .withdraw-header {
+      font-size: 30px;
+    }
   }
   
   .withdraw-tag {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     color: #ffffaa;
+  }
+  @media only screen and (min-width:768px) {
+    .withdraw-tag {
+      font-size: 24px;
+    }
   }
   
   .button-list {
@@ -93,5 +127,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
+  }
+
+  ul{
+    padding-inline-start: 0;
   }
   
