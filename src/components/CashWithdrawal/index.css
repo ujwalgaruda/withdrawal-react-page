@@ -1,0 +1,97 @@
+/* Write your CSS here */
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+.bg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .app-card {
+    border-radius: 10px;
+    background-color: #AAAA39;
+    border-style: none;
+    width: 50%;
+    padding-top: 48px;
+    padding-bottom: 16px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  
+  .name-image-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .icon {
+    border-radius: 40px;
+    padding: 20px;
+    background-color: #ffffaa;
+    font-family: 'roboto';
+    font-size: 24px;
+    color: #555500;
+    margin-right: 20px;
+  }
+  
+  .name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #ffffaa;
+    margin-right: 20px;
+    font-weight: 500;
+  }
+  
+  .balance-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .balance-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #ffffaa;
+  }
+  
+  .balance-amt-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .balance-amt {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #ffffaa;
+  }
+  
+  .rupees-tag {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #555500;
+  }
+  
+  .withdraw-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #ffffaa;
+    font-weight: 600;
+  }
+  
+  .withdraw-tag {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #ffffaa;
+  }
+  
+  .button-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
